@@ -12,12 +12,15 @@ using UnityEngine;
 
 public class PlayerControl : MonoBehaviour
 {
+    [Header("Movimiento")]
     public LimitesEncuadre limitesEncu;
     private Rigidbody rig;
     Vector3 veloMoviNave;
     float moveHorizontal;
     float moveVertical;
     float speed=12f;
+
+    
 
 
     void Awake()
@@ -34,11 +37,11 @@ public class PlayerControl : MonoBehaviour
    
     void Update()
     {
-        mueveNave();
-        
+        MueveNave();
+
     }
 
-    void mueveNave()   
+    void MueveNave()   
     {
         moveHorizontal = Input.GetAxis("Horizontal");
         moveVertical = Input.GetAxis("Vertical");
@@ -49,5 +52,8 @@ public class PlayerControl : MonoBehaviour
 
         //rig.rotation = Quaternion.Euler(0f, 0f, 10);
     }
+
+    
+
 }
 

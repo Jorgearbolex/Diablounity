@@ -5,7 +5,7 @@ using UnityEngine;
 public class MueveDisparo : MonoBehaviour
 {
     private Rigidbody rig;
-    public float speed = 10;
+    public float speed = 20;
      void Awake()
     {
         rig = GetComponent<Rigidbody> ();
@@ -14,7 +14,7 @@ public class MueveDisparo : MonoBehaviour
     
     void Start()
     {
-        rig.velocity = transform.forward * speed;
+        rig.velocity = transform.forward * speed; // ingresamos al componente de velocidad del rigibody y lo igualamos al forward por el speed
     }
 
 }
