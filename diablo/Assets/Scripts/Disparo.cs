@@ -8,7 +8,7 @@ public class Disparo : MonoBehaviour
     public GameObject tiro;
     GameObject copiaTiro;
     public Transform tiroAparece;
-    float tiempo= 0.5f;
+    float tiempo= 0.4f; //es para que los disparos se ejecuten con este tiempo
     float newDispa;
 
     void Start()
@@ -24,7 +24,7 @@ public class Disparo : MonoBehaviour
 
             copiaTiro =  Instantiate(tiro, tiroAparece.position, tiroAparece.rotation);
             newDispa = Time.time + tiempo;
-            Destroy(copiaTiro, 3f);
+            Destroy(copiaTiro, 2f);
 
 
         }

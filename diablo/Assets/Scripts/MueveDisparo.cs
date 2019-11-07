@@ -5,7 +5,7 @@ using UnityEngine;
 public class MueveDisparo : MonoBehaviour
 {
     private Rigidbody rig;
-    public float speed = 20;
+    public float speed = 70;
      void Awake()
     {
         rig = GetComponent<Rigidbody> ();
