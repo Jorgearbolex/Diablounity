@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 7}
-  m_MinSize: {x: 950, y: 524}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -70,10 +70,10 @@ MonoBehaviour:
     y: 0
     width: 823
     height: 932
-  m_MinSize: {x: 234, y: 474}
-  m_MaxSize: {x: 10004, y: 14024}
+  m_MinSize: {x: 234, y: 498}
+  m_MaxSize: {x: 10004, y: 14048}
   vertical: 1
-  controlID: 50
+  controlID: 67
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -122,10 +122,10 @@ MonoBehaviour:
     y: 30
     width: 1904
     height: 932
-  m_MinSize: {x: 713, y: 474}
-  m_MaxSize: {x: 18008, y: 14024}
+  m_MinSize: {x: 713, y: 498}
+  m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
-  controlID: 49
+  controlID: 10
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -239,16 +239,16 @@ MonoBehaviour:
     y: 0
     width: 804
     height: 932
-  m_MinSize: {x: 202, y: 224}
-  m_MaxSize: {x: 4002, y: 4024}
-  m_ActualView: {fileID: 16}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -344,20 +344,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Audio
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Audio
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Aprendiz\Documents\GitHub\Diablounity\diablo
+  m_LastProjectPath: J:\GitHub\Diablounity\diablo
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 162}
-    m_SelectedIDs: 362f0000
-    m_LastClickedID: 12086
-    m_ExpandedIDs: 00000000f82c0000702d0000aa2d0000b62d0000362e000000ca9a3b
+    m_SelectedIDs: ce2a0000
+    m_LastClickedID: 10958
+    m_ExpandedIDs: 000000000828000082280000bc280000c82800004829000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -385,7 +385,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f82c0000702d0000aa2d0000b62d0000362e0000
+    m_ExpandedIDs: 000000000828000082280000bc280000c828000048290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -504,9 +504,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 08f9ffff
-      m_LastClickedID: -1784
-      m_ExpandedIDs: c8faffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: d6fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -562,9 +562,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.56253064, y: -1.8082829, z: 8.440608}
+    m_Target: {x: 0, y: -2, z: 7.3799996}
     speed: 2
-    m_Value: {x: 0.56253064, y: -1.8082829, z: 8.440608}
+    m_Value: {x: 0, y: -2, z: 7.3799996}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -592,13 +592,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.024432072, y: 0.19223477, z: -0.004787739, w: 0.98103315}
+    m_Target: {x: 0.69964284, y: 0.001071845, z: -0.0010490912, w: 0.7144912}
     speed: 2
-    m_Value: {x: 0.024432072, y: 0.19223477, z: -0.004787739, w: 0.98103315}
+    m_Value: {x: 0.69964284, y: 0.001071845, z: -0.0010490912, w: 0.7144912}
   m_Size:
-    m_Target: 14.385757
+    m_Target: 13.166763
     speed: 2
-    m_Value: 14.385757
+    m_Value: 13.166763
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -655,10 +655,10 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 0
+    m_HSlider: 1
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
